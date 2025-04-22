@@ -1,4 +1,3 @@
-import streamlit as st
 from functions import load_tasks
 
 tasks = {
