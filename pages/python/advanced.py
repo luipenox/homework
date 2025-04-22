@@ -77,7 +77,7 @@ if text:
     """,
         'hint': """
     Použijte blok `try-except` a zachyťte výjimku typu `IndexError`, která se vyvolá při přístupu k neexistujícímu indexu.
-    Pro zachycení hodnoty, která nebude číslo, použijte výjimku typu `ValueError`. Indexy bude přístupný od 0 do `len(seznam_cisel) - 1`.
+    Pro zachycení hodnoty, která nebude číslo, použijte výjimku typu `ValueError`. Index bude přístupný od 0 do `len(seznam_cisel) - 1`.
     
     """,
         'code': """
