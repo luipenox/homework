@@ -10,8 +10,9 @@ def home():
 home_page = st.Page(home, title="Home", icon=":material/info:")
 
 simple_tasks_page = st.Page('pages/python/simple.py', title='Jednoduché úlohy', icon=":material/task:")
+advanced_tasks_page = st.Page('pages/python/advanced.py', title='Složitější úlohy', icon=":material/task:")
 
-account_pages = [home_page, simple_tasks_page]
+account_pages = [home_page, simple_tasks_page, advanced_tasks_page]
 
 pg = st.navigation({"Menu": account_pages})
 
